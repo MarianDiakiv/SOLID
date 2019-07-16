@@ -7,8 +7,11 @@ public  static void main(String[] args) {
     //Toyota toyota = new Toyota();
     Celica toyota = new Celica();
     workinTaxi(toyota);
+
     Toyota2 toyota2 = new Toyota2();
     work(toyota2);
+    Calica2 celica2 = new Calica2();
+    work(celica2);
 }
 static void workinTaxi(Toyota toyota){
 //    System.out.println(toyota.getPasangers());
@@ -27,7 +30,8 @@ static  void work(Car  car){
 class Toyota{
     String getPasangers(){
         return "get many pasangers";
-    }String getPasanger(){
+    }
+    String getPasanger(){
         return "get one";
     }
 }
